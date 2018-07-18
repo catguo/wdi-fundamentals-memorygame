@@ -44,11 +44,6 @@ var flipCard = function() {
 	
 	if (cardsInPlay.length === 2) {
 		checkForMatch();
-		console.log("Executed checkForMatch.");
-		console.log(cardsInPlay.length);
-	} else {
-		console.log("Skipped checkForMatch.");
-		console.log(cardsInPlay.length);
 	}
 }
 
